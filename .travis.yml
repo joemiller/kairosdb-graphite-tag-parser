@@ -4,7 +4,7 @@ jdk:
   - openjdk7
   - openjdk6
 
-before_script:
+install:
   # java deps
   - mkdir -p vendor/java
 
