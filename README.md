@@ -1,6 +1,8 @@
 kairosdb-graphite-tag-parser
 ============================
 
+[![Build Status](https://travis-ci.org/joemiller/kairosdb-graphite-tag-parser.png?branch=master)](https://travis-ci.org/joemiller/kairosdb-graphite-tag-parser)
+
 This is a sample TagParser class for KairosDB's graphite ingestion support.
 
 Since KairosDB supports tags, while Graphite does not, this provides a way to 
