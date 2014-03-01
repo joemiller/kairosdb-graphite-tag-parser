@@ -22,7 +22,7 @@ Stored in KairosDB as:
 Install / Configure
 -------------------
 
-- Copy the TODO.jar to KairosDB CLASSPATH such as kairosdb's `lib/` subdir.
+- Copy `GraphiteTagParser-0.1.jar` to KairosDB CLASSPATH such as kairosdb's `lib/` subdir.
 - Modify `kairosdb.properties` and set the `kairosdb.carbon.tagparser` class:
 
 ```
@@ -34,8 +34,8 @@ Install / Configure
 Build
 -----
 
-- A KairosDB jar is not available via maven, so we need to download a copy and place it into a `lib/` subdir
-  of this project.  Download a kairosdb tarball from http://dl.bintray.com/brianhks/generic/
+- `kairosdb.jar` is not available via maven. Download a copy and place it into a `lib/` subdir
+  of this project. http://dl.bintray.com/brianhks/generic/
 - run `mvn package` to generate a .jar
 
 Test
