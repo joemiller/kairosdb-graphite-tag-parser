@@ -34,9 +34,14 @@ Install / Configure
 Build
 -----
 
-- `kairosdb.jar` is not available via maven. Download a copy and place it into a `lib/` subdir
-  of this project. http://dl.bintray.com/brianhks/generic/
-- run `mvn package` to generate a .jar
+`kairosdb.jar` is not available via maven. Download and copy the jar into `vendor/java/`:
+
+```
+    mkdir -p vendor/java
+    wget http://dl.bintray.com/brianhks/generic/kairosdb-0.9.3.tar.gz && tar -zxf kairosdb-0.9.3.tar.gz && mv kairosdb/lib/kairosdb.jar vendor/java
+```
+
+run `mvn package` to generate a .jar
 
 Test
 ----

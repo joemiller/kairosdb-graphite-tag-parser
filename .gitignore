@@ -14,3 +14,4 @@ dependency.txt
 .idea
 log/*
 kairosdb.properties
+vendor

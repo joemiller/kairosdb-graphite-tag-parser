@@ -3,3 +3,9 @@ jdk:
   - oraclejdk7
   - openjdk7
   - openjdk6
+
+before_script:
+  # java deps
+  - mkdir -p vendor/java
+
+  - wget http://dl.bintray.com/brianhks/generic/kairosdb-0.9.3.tar.gz && tar -zxf kairosdb-0.9.3.tar.gz && mv kairosdb/lib/kairosdb.jar vendor/java
